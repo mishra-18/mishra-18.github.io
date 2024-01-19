@@ -1,20 +1,12 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
 
+/*
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
-.headsection{
-	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
-			height: 250px;
-			color: #353333;
-		}
-.heading{
-
-	color:#222222;
-	font:italic
-}
-.imagehead{
-	float: right;
-}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -93,7 +85,7 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-    
+
 	body {
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
@@ -109,9 +101,8 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 2.25em;
 	}
-    
+
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -121,6 +112,19 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+		.headsection{
+			background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
+					height: 250px;
+					color: #353333;
+				}
+		.heading{
+		
+			color:#222222;
+			font:italic
+		} 
+		/* .cv{
+			color:#222222;;
+		} */
 
 	input, select, textarea {
 		font-family: 'Open Sans', sans-serif;
@@ -206,7 +210,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 100px;
+		width: 1400px;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1605,7 +1609,8 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 100px;
+			height: 100px;
 		}
 
 		.image.featured {
@@ -1861,8 +1866,6 @@ input, select, textarea {
 
 	.widget.thumbnails .grid {
 		margin: 0 0 3em 0;
-		height: 150px;
-		width: 150px;
 	}
 
 	.widget.thumbnails .image {
@@ -1949,8 +1952,8 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			/* background: #645656; */
-			color: #514b4b;
+			/* background: #ff4486; */
+			color: #5c5555;
 			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
 			font-weight: 400;
